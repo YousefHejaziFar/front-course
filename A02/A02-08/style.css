@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+.btn1 {
+  display: inline-block;
+  border: 2px solid rgb(89, 184, 89);
+  width: 120px;
+  height: 40px;
+}
+.btn2 {
+  border: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(52, 200, 52);
+}
+.btn3 {
+  border: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(52, 200, 52);
+  border-radius: 50px;
+}
+.btn4 {
+  border: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(52, 200, 52);
+  border-radius: 100px 20px 100px 20px;
+}
+.btn5 {
+  border: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(52, 200, 52);
+  border-radius: 50%;
+}
