@@ -1,0 +1,25 @@
+div {
+  width: 600px;
+  height: 70px;
+  text-align: center;
+  margin: 20px auto;
+}
+p {
+  margin: 0px;
+}
+.green {
+  background-color: lawngreen;
+  border: 3px solid black;
+}
+.blue {
+  background-color: rgb(15, 236, 236);
+  border: 3px dotted rgb(3, 131, 131);
+}
+.orange {
+  background-color: #fff201;
+  border: 3px solid #ff9100;
+}
+.purple {
+  background-color: hsl(276, 95%, 75%);
+  border: 3px dotted hsl(267, 100%, 50%);
+}
