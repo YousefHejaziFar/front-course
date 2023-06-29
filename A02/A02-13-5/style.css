@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.bg-image1 {
+  background-image: url(./images/night.avif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-top: 300px;
+  padding-left: 150px;
+}
+.night {
+  background-image: linear-gradient(to top, rgb(154, 30, 168), rgb(11, 0, 71));
+  height: 150px;
+}
+.btn1 {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(23, 23, 83);
+  color: white;
+  border: 0;
+  font-size: 20px;
+}
+.bg-image2 {
+  background-image: url(./images/sea.avif);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+.bg-image3 {
+  background-image: url(./images/waterfall.avif);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+p {
+  color: white;
+  padding: 50px 80px;
+}
