@@ -29,7 +29,7 @@ html {
   background-color: rgb(23, 23, 83);
   color: white;
   border: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 .bg-image2 {
   background-image: url(./images/sea.avif);
@@ -37,6 +37,22 @@ html {
   background-size: cover;
   height: 100%;
   background-attachment: fixed;
+  padding-top: 300px;
+  padding-left: 150px;
+}
+.sea {
+  background-image: linear-gradient(to top, rgb(3, 166, 3), rgb(0, 145, 255));
+  text-align: center;
+}
+.btn2 {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(0, 76, 199);
+  color: white;
+  border: 0;
+  font-size: 25px;
 }
 .bg-image3 {
   background-image: url(./images/waterfall.avif);
@@ -44,6 +60,21 @@ html {
   background-size: cover;
   height: 100%;
   background-attachment: fixed;
+  padding-top: 300px;
+  padding-left: 150px;
+}
+.waterfull {
+  background-color: rgb(28, 51, 253);
+}
+.btn3 {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(0, 189, 164);
+  color: rgb(0, 0, 0);
+  border: 0;
+  font-size: 25px;
 }
 p {
   color: white;

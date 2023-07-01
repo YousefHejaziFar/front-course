@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+.bg-color {
+  background-image: linear-gradient(
+    to top,
+    rgb(0, 234, 255),
+    rgb(249, 249, 249)
+  );
+  height: 100%;
+}
+.bg-image {
+  background-image: url(./image/back-ocean.jpg);
+  background-size: 100%;
+  height: inherit;
+  margin: auto;
+  width: 700px;
+}
+.ocean {
+  height: inherit;
+  backdrop-filter: blur(5px);
+  border: 2px solid white;
+  width: 300px;
+  margin: auto;
+}
+img {
+  height: 300px;
+  width: 100%;
+  padding: 60px 5px 20px 5px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+p {
+  color: white;
+  padding: 0px 2px;
+}

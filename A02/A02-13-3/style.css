@@ -11,10 +11,9 @@ html {
   background-image: url(./image/25563.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 100%;
   /* Add the blur effect */
-  -webkit-backdrop-filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 .text {
   color: white;
