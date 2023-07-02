@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+.bg-image {
+  background-image: url(./Image/53931.jpg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+}
+.top {
+  color: white;
+  width: 650px;
+  margin: auto;
+  font-size: 40px;
+  padding-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.bottom {
+  text-align: center;
+  padding-top: 80px;
+}
+p {
+  padding-bottom: 120px;
+}
+button {
+  width: 250px;
+  background-image: linear-gradient(to top, rgb(223, 223, 0), rgb(255, 51, 0));
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 25px;
+}

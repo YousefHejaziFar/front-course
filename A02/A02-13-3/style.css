@@ -12,16 +12,16 @@ html {
   background-position: center;
   background-size: cover;
   height: 100%;
-  /* Add the blur effect */
-  -webkit-filter: blur(2px);
 }
 .text {
   color: white;
   font-weight: bold;
-  position: absolute;
-  top: 12%;
-  left: 30%;
   text-align: center;
+  /* Add the blur effect */
+  backdrop-filter: blur(3px);
+  width: 100%;
+  height: inherit;
+  padding-top: 70px;
 }
 h1 {
   font-size: 100px;
@@ -33,4 +33,5 @@ p {
 }
 button {
   width: 100px;
+  border: 2px solid black;
 }
