@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 200vh;
+}
+.bg-color1 {
+  background-image: linear-gradient(to top, rgb(136, 0, 0), rgb(0, 0, 0));
+  height: 100vh;
+  background-attachment: fixed;
+}
+.image1 {
+  background-image: url(./image/maryam.jpg);
+  background-position: center;
+  height: 90vh;
+  width: 60%;
+  color: rgb(255, 0, 55);
+  font-size: 50px;
+  line-height: 180px;
+  border-radius: 10px;
+  border: 10px solid rgba(255, 61, 61, 0.467);
+}
+h1,
+h3 {
+  padding-left: 910px;
+}
+.awards {
+  background-image: linear-gradient(to top, rgb(255, 251, 0), rgb(184, 31, 31));
+  margin: 50px 0px;
+  padding: 30px;
+  font-size: 30px;
+}
+.bg-color2 {
+  background-image: linear-gradient(to top, rgb(82, 149, 0), rgb(45, 37, 0));
+  height: 100vh;
+  margin-top: 120px;
+  background-attachment: fixed;
+  padding-top: 35px;
+}
+.image2 {
+  background-image: url(./image/pxfuel.jpg);
+  background-position: center;
+  height: 90vh;
+  width: 60%;
+}
