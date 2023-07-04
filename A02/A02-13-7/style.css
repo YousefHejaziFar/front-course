@@ -5,8 +5,7 @@
 }
 body,
 html {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
 }
 .bg-color {
   background-image: linear-gradient(to top, rgb(149, 0, 255), rgb(0, 0, 0));

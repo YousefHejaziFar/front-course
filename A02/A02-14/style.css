@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 80vh;
+  width: 30vw;
+}
+.line-one {
+  border: 15px solid yellow;
+}
+.line-two {
+  border: 20px solid darkblue;
+}
+.line-tree {
+  border: 25px solid cyan;
+}
+div {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+}
+p {
+  text-align: left;
+  margin: 0;
+  font-size: 19px;
+}
