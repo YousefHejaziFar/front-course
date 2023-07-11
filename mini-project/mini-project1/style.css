@@ -3,119 +3,102 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  background-attachment: fixed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 html,
 body {
   height: 100vh;
-  background-color: black;
 }
-.content {
-  height: 90%;
-  width: 80%;
-  margin: auto;
-  padding-top: 50px;
-  display: flex;
-}
-.content .left {
+/*Front Page*/
+.bg-image-1 {
   height: 100%;
-  width: 40%;
+  width: 100%;
+  margin: auto;
+  background-image: url(./image/oliv-15\ -\ Hobbyist\,\ Digital\ Artist\ _\ DeviantArt.jpg);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg-image-1 .card {
+  height: 100%;
+  width: 37.5%;
   background-image: linear-gradient(
     to left,
-    rgb(153, 69, 0),
-    rgb(244, 117, 75)
+    rgba(0, 0, 0, 0.464),
+    rgba(0, 0, 0, 0.83)
   );
   text-align: center;
+  margin: auto;
+  backdrop-filter: blur(10px);
 }
-.content .left img {
-  width: 250px;
-  height: 250px;
+.bg-image-1 .card img {
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin-top: 20px;
 }
-.left h1,
-.left p {
-  margin: 10px 0px;
+.card h1,
+.card p {
+  margin: 20px 0px;
   color: white;
   font-size: 50px;
 }
+.connections {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
 .connections ul {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .connections ul li {
   display: inline-block;
-  width: 70px;
-  height: 70px;
-  background-color: rgb(67, 67, 67);
-  padding-top: 15px;
+  width: 50px;
+  height: 50px;
+  padding-top: 8px;
   margin-left: 20px;
   border-radius: 5px;
 }
 .connections ul li a {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
 }
-.content button {
-  margin-top: 30px;
-  font-size: 40px;
+.bg-image-1 button {
+  margin-top: 40px;
+  font-size: 30px;
   color: white;
   background-color: black;
   padding: 20px;
   border: none;
 }
-.content .right {
-  width: 60%;
+/*The second page*/
+.bg-image-2 {
+  background-image: url(./image/60\ Fan\ Art\ Movie\ Posters.png);
+  background-position: center;
+  background-size: contain;
   height: 100%;
-  background-color: white;
 }
-.right h1 {
+.bg-image-2 .text {
+  height: 100%;
+  width: 37.5%;
+  background-image: linear-gradient(
+    to left,
+    rgba(36, 3, 70, 0.464),
+    rgba(49, 2, 63, 0.83)
+  );
   text-align: center;
-  font-size: 40px;
-  padding-top: 20px;
-}
-.right hr {
-  width: 90%;
-  color: rgba(255, 255, 255, 0.188);
   margin: auto;
+  backdrop-filter: blur(10px);
 }
-.communication {
-  display: flex;
+.text h1 {
+  font-size: 100px;
+  color: rgb(187, 0, 255);
+  margin-bottom: 40px;
 }
-.communication .phone {
-  margin-left: 200px;
-}
-.email p {
-  color: rgba(0, 0, 0, 0.292);
-  margin-left: 100px;
-  font-size: 20px;
-}
-.phone p {
-  color: rgba(0, 0, 0, 0.292);
-  font-size: 20px;
-  margin-left: 17px;
-}
-.right form {
-  margin-top: 50px;
-  text-align: center;
-}
-.right form input[type="text"] {
+.text p {
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.459);
+  text-align: justify;
   padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  border: none;
-  width: 90%;
-  background: linear-gradient(to right, #434343, #000000);
-  color: white;
-}
-.right form input[type="submit"] {
-  background: linear-gradient(to left, #434343, #000000);
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  width: 100px;
-  margin-top: 10px;
-}
-.right form .message {
-  height: 200px;
 }
