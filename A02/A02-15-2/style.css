@@ -17,6 +17,7 @@ h1 {
   text-align: center;
   font-size: 80px;
   margin-bottom: 20px;
+  font-family: Moo Lah Lah;
 }
 p {
   font-size: 30px;
@@ -26,6 +27,7 @@ p {
   width: 60%;
   color: rgb(67, 26, 14);
   line-height: 35px;
+  font-family: Sunshiney;
 }
 .persian {
   direction: rtl;

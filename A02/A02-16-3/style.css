@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+.bg-color {
+  background-image: linear-gradient(
+    to top,
+    rgb(132, 25, 194),
+    rgb(172, 18, 18)
+  );
+  height: 100%;
+}
+.bg-color ul {
+  margin-left: 50px;
+  padding-top: 20px;
+  font-family: Rubik Puddles;
+  font-size: 20px;
+}
+.bg-color ul li p {
+  color: white;
+  font-size: 43px;
+}
+.text {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px 120px 0px 120px;
+}
+.text h1 {
+  color: rgb(1, 1, 132);
+  text-align: center;
+  font-family: Dancing Script;
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.416),
+    -3px -3px 30px rgba(255, 255, 255, 0.36),
+    5px 5px 30px rgba(255, 255, 255, 0.293);
+  font-size: 45px;
+}
+.text p {
+  color: white;
+  padding: 20px;
+  line-height: 50px;
+  font-size: 20px;
+  text-indent: 40px;
+  text-align: justify;
+}
+.text span {
+  color: cyan;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: blue;
+}
+.text hr {
+  height: 5px;
+  background-color: white;
+}
