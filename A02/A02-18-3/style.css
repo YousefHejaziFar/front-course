@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100vh;
+}
+.bg-color {
+  background-color: gray;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.bg-color div {
+  height: 30px;
+  width: 150px;
+  margin: 5px;
+}
+p {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  padding-left: 20px;
+  border-left: 2px solid black;
+  margin-left: 5px;
+}
+i {
+  color: cyan;
+  background-color: rgba(0, 0, 0, 0.612);
+  padding: 2px;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.bg-color div :hover {
+  background-color: cyan;
+  color: black;
+}
+.bg-color div :active {
+  background-color: blue;
+  color: white;
+}

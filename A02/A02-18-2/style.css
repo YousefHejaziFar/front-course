@@ -52,8 +52,11 @@ button {
 }
 .text ul li a:hover {
   color: white;
-  font-size: 40px;
 }
 .text ul li a:active {
-  color: rgb(0, 0, 112);
+  color: rgba(210, 210, 210, 0.295);
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.168);
 }
