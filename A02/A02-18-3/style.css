@@ -18,20 +18,20 @@ html {
   width: 150px;
   margin: 5px;
 }
-p {
+a {
   padding: 5px;
   text-align: center;
   color: white;
-  display: inline-block;
-  font-size: 15px;
+  font-size: 17px;
   padding-left: 20px;
   border-left: 2px solid black;
   margin-left: 5px;
+  margin-bottom: 30px;
 }
 i {
   color: cyan;
   background-color: rgba(0, 0, 0, 0.612);
-  padding: 2px;
+  padding: 5px;
   width: 100%;
   font-size: 20px;
   border: 1px solid black;

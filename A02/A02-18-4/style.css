@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100vh;
+}
+.bg-color {
+  background-color: black;
+  height: 100%;
+  padding-top: 60px;
+}
+.text {
+  width: 350px;
+  height: 60%;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+}
+.text h1 {
+  color: gray;
+  font-family: cursive;
+  padding: 10px;
+}
+.text p {
+  text-align: justify;
+  padding: 0 37px 0 37px;
+  line-height: 30px;
+  font-family: monospace;
+  font-size: 16px;
+}
+button {
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.bg-color :hover.text {
+  background-image: linear-gradient(
+    to top,
+    rgb(208, 87, 224),
+    rgb(85, 50, 255)
+  );
+}
+.bg-color :hover h1 {
+  color: black;
+}
+.bg-color :hover p {
+  color: white;
+}
+button :hover {
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0));
+  color: white;
+}
