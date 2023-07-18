@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+.bg-color {
+  background-image: linear-gradient(to top, rgb(45, 0, 158), rgb(8, 0, 32));
+  height: 100%;
+  padding-top: 200px;
+}
+.card {
+  height: 250px;
+  width: 300px;
+  background-image: linear-gradient(to left, rgb(255, 0, 30), rgb(118, 2, 138));
+  border: 1px solid white;
+  margin: auto;
+  text-align: center;
+}
+.card i {
+  font-size: 200px;
+}
+h1 {
+  font-size: 30px;
+  color: rgb(67, 72, 72);
+  font-family: Dosis;
+}
+.text {
+  height: 0px;
+  width: 0px;
+  margin: auto;
+  background-color: white;
+  font-family: Dancing Script;
+  text-align: justify;
+  font-size: 0px;
+}
+.bg-color :hover .card {
+  padding-top: 20px;
+}
+.bg-color :hover.text {
+  height: 250px;
+  width: 300px;
+  font-size: 20px;
+  padding: 20px 20px 0px 20px;
+}

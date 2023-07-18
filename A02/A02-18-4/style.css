@@ -50,7 +50,7 @@ button {
 .bg-color :hover p {
   color: white;
 }
-button :hover {
-  background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0));
+button:hover {
+  background-image: linear-gradient(to top, rgb(0, 4, 55), rgb(0, 0, 0));
   color: white;
 }

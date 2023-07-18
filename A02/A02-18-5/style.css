@@ -7,3 +7,48 @@ html,
 body {
   height: 100vh;
 }
+.bg-color {
+  background-image: linear-gradient(
+    to left,
+    rgb(53, 51, 58),
+    rgb(196, 192, 192)
+  );
+  height: 100%;
+  padding-top: 30px;
+}
+.content {
+  height: 55%;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  margin: auto;
+  text-align: center;
+}
+.content i {
+  font-size: 300px;
+}
+h1 {
+  font-size: 50px;
+  color: cyan;
+  font-family: Dancing Script;
+}
+p {
+  font-size: 0px;
+}
+.bg-color :hover {
+  background-image: linear-gradient(to left, rgb(4, 89, 187), rgb(0, 189, 154));
+}
+.bg-color :hover i {
+  font-size: 0px;
+}
+.bg-color :hover h1 {
+  color: black;
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+.bg-color :hover p {
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  padding: 0px 15px 0px 15px;
+}

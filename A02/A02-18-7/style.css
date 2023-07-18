@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100vh;
+}
+.bg-color {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(203, 211, 255),
+    rgb(19, 19, 25)
+  );
+  height: 100%;
+  padding: 70px;
+}
+.card {
+  height: 500px;
+  width: 350px;
+  margin: auto;
+  background-image: url(./image/mountain.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+}
+h1 {
+  color: cyan;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Tektur;
+}
+p {
+  font-size: 0;
+}
+button {
+  font-size: 0;
+  border: 0;
+}
+.bg-color :hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 0)
+  );
+}
+.bg-color :hover h1 {
+  padding: 20px;
+  color: black;
+  text-align: left;
+}
+.bg-color :hover p {
+  color: white;
+  font-family: Dancing Script;
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+  text-align: justify;
+  line-height: 33px;
+}
+.bg-color :hover button {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(1, 146, 146);
+  border-radius: 20px 0px 20px 20px;
+  border: 2px solid black;
+  width: 100px;
+  padding: 5px;
+  margin-left: 120px;
+  margin-top: 25px;
+}
