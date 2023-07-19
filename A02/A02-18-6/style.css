@@ -10,6 +10,10 @@ body {
 .bg-color {
   background-image: linear-gradient(to top, rgb(45, 0, 158), rgb(8, 0, 32));
   height: 100%;
+}
+.content {
+  width: 300px;
+  margin: auto;
   padding-top: 200px;
 }
 .card {
@@ -37,10 +41,10 @@ h1 {
   text-align: justify;
   font-size: 0px;
 }
-.bg-color :hover .card {
+.bg-color :hover.content {
   padding-top: 20px;
 }
-.bg-color :hover.text {
+.bg-color :hover .text {
   height: 250px;
   width: 300px;
   font-size: 20px;

@@ -16,13 +16,18 @@ html {
   height: 100%;
   padding: 70px;
 }
-.card {
-  height: 500px;
+.filter {
   width: 350px;
   margin: auto;
   background-image: url(./image/mountain.jpg);
   background-position: center;
   background-size: cover;
+}
+.card {
+  height: 500px;
+  width: 350px;
+  margin: auto;
+
   border: 1px solid white;
 }
 h1 {
@@ -38,11 +43,11 @@ button {
   font-size: 0;
   border: 0;
 }
-.bg-color :hover {
+.bg-color :hover.card {
   background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0),
-    rgba(255, 255, 255, 0)
+    to bottom,
+    rgb(0, 149, 163),
+    rgba(0, 0, 0, 0)
   );
 }
 .bg-color :hover h1 {
@@ -68,4 +73,7 @@ button {
   padding: 5px;
   margin-left: 120px;
   margin-top: 25px;
+}
+.bg-color :hover button:hover {
+  color: black;
 }
