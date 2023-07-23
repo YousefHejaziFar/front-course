@@ -23,9 +23,9 @@ body {
   font-size: 20px;
 }
 table {
-  width: 55%;
+  width: 65%;
   color: rgba(255, 255, 255, 0.651);
-  height: 300px;
+  height: 400px;
   margin: auto;
   font-family: sans-serif;
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.036);
@@ -33,13 +33,21 @@ table {
 th {
   background-color: rgba(19, 68, 174, 0.334);
   padding: 15px;
-  font-size: 20px;
+  font-size: 27px;
 }
 td {
   background-color: rgba(255, 255, 255, 0.038);
   padding: 0;
+  font-size: 25px;
 }
 table .bg-color-2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(61, 102, 139),
+    rgb(59, 0, 90)
+  );
+}
+td:hover {
   background-image: linear-gradient(
     to bottom,
     rgb(61, 102, 139),

@@ -8,42 +8,54 @@ body {
   height: 100vh;
 }
 .bg-color {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(109, 250, 182),
-    rgb(0, 102, 124)
-  );
+  background-color: rgba(0, 0, 0, 0.827);
   height: 100%;
   padding-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.484);
-  font-size: 30px;
+}
+h1 {
+  margin-bottom: 35px;
 }
 table {
+  width: 60%;
   text-align: left;
   margin: auto;
-}
-td,
-th {
-  border: 1px solid #9999995d;
-  padding: 20px;
+  border-collapse: collapse;
 }
 td {
-  background: rgba(128, 128, 128, 0.3);
-  color: rgba(255, 255, 255, 0.715);
-}
-.head {
-  background-color: rgba(0, 255, 183, 0.519);
+  padding: 20px;
+  font-size: 30px;
 }
 th {
-  background: #02224158;
-  color: white;
-  text-align: center;
+  color: rgb(255, 255, 255);
   padding: 10px;
+  font-size: 30px;
 }
-.bg-color :hover td {
-  background-color: rgba(0, 0, 0, 0.54);
+button {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
 }
-.bg-color :hover th {
-  background-color: rgba(0, 0, 0, 0.125);
+a {
+  text-decoration: none;
+  font-size: 30px;
+  background-color: rgba(148, 6, 6, 0);
+}
+p {
+  background-color: rgba(0, 0, 0, 0);
+}
+.odd-line {
+  color: rgba(255, 255, 255, 0.421);
+}
+.even-line {
+  background-color: rgba(0, 0, 0, 0.289);
+  color: rgba(255, 255, 255, 0.279);
+}
+tr:hover .yellow {
+  color: rgba(255, 255, 0, 0.773);
+}
+tr:hover .white {
+  color: white;
 }
