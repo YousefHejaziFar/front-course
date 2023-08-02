@@ -20,32 +20,30 @@ body {
   background-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.903);
   height: 5%;
-  font-size: 30px;
+  font-size: 20px;
   padding: 4px 0 0px 30px;
 }
 .nav-bar td {
-  padding-right: 60px;
-}
-.nav-bar th {
-  padding-right: 250px;
+  padding-right: 100px;
+  width: 10%;
 }
 .nav-bar .icon {
   color: red;
-  padding-right: 5px;
+  width: 3%;
 }
 .nav-bar input {
   height: 30px;
   width: 200px;
 }
 .nav-bar .icon-search {
-  padding-left: 150px;
+  padding-left: 50px;
 }
-.bg-image img {
-  height: 70%;
-  width: 60%;
-  margin: 0px 0px 0px 500px;
-}
-.bg-image h1 {
-  color: rgb(249, 152, 152);
-  margin-top: 40px;
+/*content*/
+.content {
+  padding: 1rem;
+  border: 1px solid #333;
+  margin: 50px auto;
+  height: 88%;
+  width: 65%;
+  backdrop-filter: 10px;
 }
