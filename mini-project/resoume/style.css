@@ -11,7 +11,8 @@ body {
   background-image: url(./image/5137894.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
+  background-attachment: fixed;
+  height: 200%;
   padding-top: 30px;
 }
 
@@ -25,7 +26,7 @@ body {
 }
 .nav-bar td {
   padding-right: 100px;
-  width: 10%;
+  width: 7%;
 }
 .nav-bar .icon {
   color: red;
@@ -39,11 +40,41 @@ body {
   padding-left: 50px;
 }
 /*content*/
-.content {
+.bg-image-2 {
+  background-image: url(./image/3.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 1rem;
-  border: 1px solid #333;
   margin: 50px auto;
-  height: 88%;
+  height: 40%;
   width: 65%;
-  backdrop-filter: 10px;
+}
+.content {
+  height: 100%;
+  width: 80%;
+  backdrop-filter: blur(5px);
+  margin: auto;
+}
+h2 {
+  color: rgba(255, 79, 79, 0.989);
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+p {
+  color: rgba(255, 255, 255, 0.599);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+hr {
+  border-color: rgba(255, 79, 79, 0.989);
+  margin: auto;
+  width: 80%;
+}
+button {
+  border: 0;
+  padding: 20px;
+  background: #ff1c46;
+  font-size: 20px;
+  color: black;
 }
