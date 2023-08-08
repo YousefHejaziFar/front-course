@@ -21,7 +21,7 @@ body {
 .nav-bar {
   background-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.903);
-  height: 5%;
+  height: 10vh;
   font-size: 20px;
   padding: 4px 0 0px 30px;
 }
@@ -47,7 +47,7 @@ body {
   background-position: center;
   padding: 1rem;
   margin: 50px auto 0px auto;
-  height: 80vh;
+  height: 77vh;
   width: 65%;
 }
 .content {
@@ -106,11 +106,14 @@ body {
   border-spacing: 50px;
 }
 .Tools td {
-  width: 400px;
+  width: 300px;
   height: 250px;
   background-color: rgba(0, 0, 0, 0.597);
   text-align: center;
   color: rgb(238, 233, 233);
+}
+.chrome {
+  font-size: 28px;
 }
 .Tools td i {
   font-size: 50px;
@@ -148,18 +151,58 @@ body {
 .Shadow p {
   font-size: 20px;
   color: rgb(243, 63, 132);
-  margin-left: 70px;
-  margin-top: 30px;
+  margin: 30px 0px 60px 70px;
 }
-/*hover*/
-.box-tool :hover div {
-  background-color: rgb(0, 0, 0);
+.Shadow table {
+  border-collapse: collapse;
 }
-.box-tool:hover td {
-  background-image: url(./image/sep09.jpg);
+.Shadow table td {
+  width: 350px;
+  height: 300px;
+}
+.Shadow td div {
+  text-align: center;
+  margin-top: 212px;
+  background-color: rgba(0, 0, 0, 0.67);
+  width: 0px;
+}
+.Shadow td div h1 {
+  color: rgb(255, 104, 235);
+  font-size: 0px;
+  margin-bottom: 5px;
+}
+.Shadow td p {
+  color: white;
+  margin: 0px;
+  font-size: 0px;
+  margin-bottom: 5px;
+}
+.Shadow td i {
+  color: white;
+  font-size: 0px;
+  margin: 5px;
+}
+.Shadow .one {
+  background-image: url(./image/bearded-man-drinking-bar.jpg);
   background-position: center;
   background-size: cover;
 }
+.Shadow .two {
+  background-image: url(./image/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Shadow .tree {
+  background-image: url(./image/sucessful-bearded-businessman-white-shirt-is-posing-dark-photo-studio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Shadow .four {
+  background-image: url(./image/indoor-studio-shot-attractive-pretty-woman-with-light-brown-hair-wearing-black-jacket-with-red-lips.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/*hover*/
 .Tools td:hover i {
   font-size: 0px;
   margin: 0;
@@ -172,4 +215,16 @@ body {
 .Tools td:hover p {
   font-size: 14px;
   color: white;
+}
+.Shadow td:hover div {
+  width: 100%;
+}
+.Shadow td:hover h1 {
+  font-size: 30px;
+}
+.Shadow td:hover p {
+  font-size: 16px;
+}
+.Shadow td:hover i {
+  font-size: 16px;
 }
