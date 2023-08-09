@@ -5,7 +5,7 @@
 }
 html,
 body {
-  height: 200vh;
+  height: 140vh;
   font-family: sans-serif;
 }
 .bg-image {
@@ -201,6 +201,56 @@ body {
   background-image: url(./image/indoor-studio-shot-attractive-pretty-woman-with-light-brown-hair-wearing-black-jacket-with-red-lips.jpg);
   background-position: center;
   background-size: cover;
+}
+/*footer*/
+.footer {
+  background-image: url(./image/sep09.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  box-shadow: 20px -30px 20px 130px #00000062;
+}
+.footer .shadow-2 {
+  background-color: rgba(0, 0, 0, 0.627);
+  height: 100%;
+  padding: 50px 300px 0px 300px;
+}
+.footer .shadow-2 i {
+  color: white;
+  font-size: 20px;
+}
+.shadow-2 a {
+  margin-left: 300px;
+}
+.shadow-2 a i {
+  margin-right: 10px;
+  background-color: rgb(44, 41, 41);
+  padding: 15px;
+  border-radius: 50%;
+}
+.shadow-2 hr {
+  margin: 20px 0px 20px 0px;
+  border-color: gray;
+}
+.shadow-2 table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 10px;
+}
+.shadow-2 th {
+  color: white;
+  padding-right: 60px;
+}
+.shadow-2 td {
+  color: rgb(111, 106, 106);
+  padding-right: 20px;
+}
+.shadow-2 p {
+  text-align: center;
+  color: white;
+}
+pre {
+  font-family: sans-serif;
 }
 /*hover*/
 .Tools td:hover i {
