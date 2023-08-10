@@ -16,7 +16,6 @@ body {
   height: 200%;
   padding-top: 30px;
 }
-
 /*nav-bar*/
 .nav-bar {
   background-color: rgba(0, 0, 0, 0);
@@ -28,6 +27,7 @@ body {
 .nav-bar td {
   padding-right: 80px;
   width: 1%;
+  font-family: Mirza;
 }
 .nav-bar .icon {
   color: red;
@@ -61,11 +61,13 @@ body {
   font-size: 50px;
   margin-bottom: 30px;
   margin-top: 20px;
+  font-family: Knewave;
 }
 .content p {
   color: rgba(255, 255, 255, 0.599);
   font-size: 20px;
   margin-bottom: 30px;
+  font-family: Mirza;
 }
 .content hr {
   border-color: rgba(255, 79, 79, 0.989);
@@ -79,6 +81,7 @@ body {
   font-size: 20px;
   color: black;
 }
+/*Tool*/
 .Tools {
   width: 65%;
   height: 80vh;
@@ -94,6 +97,7 @@ body {
 .Tools h3 {
   margin-left: 200px;
   color: rgb(26, 25, 25);
+  font-family: Mirza;
 }
 .Tools h4 {
   margin-left: 200px;
@@ -104,6 +108,7 @@ body {
 }
 .Tools table {
   border-spacing: 50px;
+  font-family: Mirza;
 }
 .Tools td {
   width: 300px;
@@ -140,7 +145,6 @@ body {
   background-color: rgba(0, 0, 0, 0.905);
   height: 100%;
   width: 100%;
-  margin: auto;
 }
 .Shadow i {
   color: rgb(243, 63, 132);
@@ -152,6 +156,7 @@ body {
   font-size: 20px;
   color: rgb(243, 63, 132);
   margin: 30px 0px 60px 70px;
+  font-family: Mirza;
 }
 .Shadow table {
   border-collapse: collapse;
@@ -240,10 +245,12 @@ body {
 .shadow-2 th {
   color: white;
   padding-right: 60px;
+  font-family: Great Vibes;
 }
 .shadow-2 td {
   color: rgb(111, 106, 106);
   padding-right: 20px;
+  font-family: Mirza;
 }
 .shadow-2 p {
   text-align: center;
