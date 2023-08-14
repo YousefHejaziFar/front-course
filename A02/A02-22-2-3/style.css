@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+.bg-color {
+  background-image: linear-gradient(rgb(0, 194, 191), rgb(0, 12, 73));
+  height: 100%;
+  padding: 50px;
+}
+.bg-color .nav-bar {
+  background-color: white;
+  margin-bottom: 50px;
+}
+.bg-color .nav-bar li {
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  color: rgb(85, 0, 164);
+}
+.bg-color .text {
+  border: 1px solid white;
+  padding: 40px 60px 5px 60px;
+}
+.bg-color .text h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.bg-color .text p {
+  text-align: justify;
+}
