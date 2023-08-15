@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: cadetblue;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 300px;
+  margin: 20px;
+  height: 300px;
+}
+.visible {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: visible;
+  margin: 20px;
+}
+.hidden {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+  margin: 20px;
+}
+.scroll {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+  margin: 20px;
+}
+.auto {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: auto;
+  margin: 20px;
+}
+h2 {
+  margin: 20px;
+}
+p {
+  margin: 20px;
+}
