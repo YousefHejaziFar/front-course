@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-1 {
+  border: 3px solid black;
+  background-color: antiquewhite;
+  position: relative;
+  height: 120px;
+  margin: 100px;
+  padding: 5px;
+}
+.box-2 {
+  border: 3px solid black;
+  background-color: rgb(112, 255, 255);
+  height: 120px;
+  padding: 5px;
+  margin: 100px;
+}
+.box-1 p {
+  width: 90%;
+  float: left;
+}
+.box-2 p {
+  float: right;
+  width: 90%;
+}
+.box-1 img {
+  height: 100px;
+  width: 100px;
+}
+.box-2 img {
+  height: 100px;
+  width: 100px;
+}
