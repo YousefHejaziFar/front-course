@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+.bg-color {
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgb(21, 21, 38),
+    rgb(140, 150, 169)
+  );
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+img {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+}
+.box-1,
+.box-3 {
+  padding: 5px;
+  margin: 10px auto;
+  width: 50%;
+  height: 13vh;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 5px;
+}
+.box-2,
+.box-4 {
+  width: 50%;
+  height: 13vh;
+  background-color: rgb(100, 100, 100);
+  border: 1px solid rgb(255, 255, 255);
+  margin: 10px auto;
+  padding: 5px;
+  position: relative;
+}
+.box-2 img,
+.box-4 img {
+  float: right;
+}
+.box-1 p {
+  float: right;
+  margin-right: 480px;
+  margin-top: 20px;
+}
+.box-3 p {
+  margin-top: 20px;
+  margin-right: 390px;
+  float: right;
+}
+.box-2 p,
+.box-4 p {
+  margin-top: 20px;
+}
+.box-2 .time,
+.box-4 .time {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: rgba(0, 0, 0, 0.329);
+}
+.box-1 .time,
+.box-3 .time {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: rgba(0, 0, 0, 0.393);
+  margin: 0px;
+}

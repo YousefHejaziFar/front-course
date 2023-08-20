@@ -6,9 +6,56 @@
 html,
 body {
   height: 100vh;
+  font-family: sans-serif;
 }
 h1 {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px;
 }
-.
+.Month {
+  background-color: rgb(21, 21, 124);
+  color: white;
+  height: 20vh;
+  width: 95%;
+
+  padding-top: 4%;
+  margin: auto;
+}
+.Month table {
+  width: 100%;
+}
+.text-1 {
+  text-align: left;
+}
+.text-2 {
+  width: 1px;
+}
+.text-3 {
+  text-align: right;
+}
+.Days {
+  margin: auto;
+  width: 95%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.114);
+  color: rgba(0, 0, 0, 0.593);
+}
+
+.Days div {
+  background-color: blue;
+}
+.Days th {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.299);
+}
+.Days td {
+  text-align: center;
+  padding: 10px;
+}
+.Days td a {
+  padding: 5px;
+}
+.Days a:hover {
+  background-color: rgb(21, 21, 124);
+  color: white;
+}
