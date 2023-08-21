@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+.bg-image {
+  background-image: url(./image/lion.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  color: rgba(255, 255, 255, 0.801);
+}
+h1 {
+  text-align: center;
+  padding-top: 20%;
+}
+hr {
+  width: 5%;
+  margin: 20px auto;
+}
+.text-1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.text-2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.text-3 {
+  text-align: center;
+}
