@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+.bg-color {
+  background-image: linear-gradient(
+    to top,
+    rgb(0, 117, 117),
+    rgb(64, 190, 129)
+  );
+  height: 100%;
+  position: relative;
+}
+ul {
+  float: left;
+}
+li {
+  background-color: rgb(5, 3, 42);
+  color: white;
+  margin: 5px 0px 5px 0px;
+  padding-top: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.5s;
+  left: -4%;
+  position: absolute;
+}
+.box-2 {
+  top: 5%;
+}
+.box-3 {
+  top: 10%;
+}
+.box-4 {
+  top: 15%;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0px;
+}
+p {
+  width: 85%;
+  text-align: justify;
+  margin: auto;
+}
+li:hover {
+  left: 0;
+}
