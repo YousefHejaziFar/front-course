@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 160vh;
+  font-family: sans-serif;
+}
+.bg-color {
+  background-image: linear-gradient(to top, rgb(43, 137, 155), rgb(12, 52, 69));
+  height: 100%;
+  padding: 20px 25%;
+}
+.bg-color h1 {
+  padding: 30px 0px;
+}
+.bg-color h2 {
+  padding: 20px 0px 60px 0px;
+}
+.bg-color .content {
+  background-color: white;
+  height: 125vh;
+  padding: 0px 10px;
+}
+.horse-1,
+.horse-2,
+.horse-3 {
+  display: inline-block;
+}
+.horse-1,
+.horse-2 {
+  margin-right: 35px;
+}
+.horse-1 img,
+.horse-2 img,
+.horse-3 img {
+  width: 220px;
+  height: 400px;
+}
+h3 {
+  padding: 10px 0px;
+}
+.lion img {
+  width: 100%;
+  height: 400px;
+}
+p {
+  padding: 10px 0px;
+}
