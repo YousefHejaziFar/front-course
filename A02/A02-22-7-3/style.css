@@ -23,14 +23,19 @@
   float: left;
 }
 .box-2 p {
-  float: right;
   width: 90%;
 }
-.box-1 img {
-  height: 100px;
-  width: 100px;
+.img-1 {
+  overflow: auto;
 }
-.box-2 img {
+.img-1 img {
   height: 100px;
   width: 100px;
+  float: right;
+}
+.img-2 img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
 }
