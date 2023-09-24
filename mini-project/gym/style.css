@@ -46,8 +46,8 @@ body {
   border: 0;
   clear: right;
 }
-/*page-1*/
-.page-1 {
+/*section-1*/
+.section-1 {
   background-image: url(./images/young-fitness-man-studio.jpg);
   background-position: center;
   background-size: cover;
@@ -118,25 +118,49 @@ button:hover {
   color: red;
   background-color: white;
 }
-/*page-2*/
-.page-2 {
+/*section-2*/
+.section-2 {
   width: 100%;
   height: 160vh;
-  position: absolute;
+  padding: 10%;
 }
-.page-2 img {
-  position: relative;
+.section-2 .img {
   float: left;
   width: 600px;
   height: 800px;
-  top: 15%;
-  left: 10%;
 }
-.page-2 .text {
-  background-color: bisque;
-  position: relative;
-  width: 35%;
-  height: 70%;
-  top: 15%;
-  left: 55%;
+.section-2 .img img {
+  width: 100%;
+  height: 100%;
+}
+.section-2 .text {
+  padding: 10% 0% 0% 55%;
+}
+.text hr {
+  display: inline-block;
+  width: 10%;
+  border-color: rgb(184, 49, 0);
+  margin-right: 10px;
+  padding-bottom: 3px;
+  background-color: orangered;
+  border: 0px;
+}
+.text h5 {
+  color: orangered;
+}
+.text h1 {
+  color: rgb(0, 0, 81);
+  margin: 5% 0%;
+  line-height: 50px;
+}
+.text p {
+  line-height: 30px;
+  margin: 5% 0%;
+}
+.text .btn-3 {
+  padding: 10px 40px;
+  background-color: red;
+  color: white;
+  border: 0px;
+  margin-top: 60px;
 }
