@@ -5,25 +5,38 @@
 }
 html,
 body {
-  height: 100vh;
   font-family: sans-serif;
+}
+@font-face {
+  font-family: myfirstfont;
+  src: url(./font/LYjNdG7kmE0gfaN9pQ.woff2);
+}
+@font-face {
+  font-family: yousef;
+  src: url(./font/7cHpv4kjgoGqM7E_DMs5.woff2);
+}
+@font-face {
+  font-family: yous;
+  src: url(./font/7cHqv4kjgoGqM7E3t-4s51os.woff2);
 }
 /*nav-bar*/
 nav {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(0, 0, 0);
   position: fixed;
   width: 100%;
   z-index: 2;
+  top: 0%;
 }
 nav img {
   float: left;
   padding: 30px 5px 20px 40px;
 }
-nav h1 {
+nav a {
   color: white;
-  padding: 30px 5px;
+  padding: 25px 5px;
   display: inline-block;
-  font-size: 40px;
+  font-size: 45px;
+  font-family: myfirstfont;
 }
 .nav-bar {
   float: right;
@@ -33,6 +46,8 @@ nav h1 {
   display: inline-block;
   color: white;
   margin-right: 50px;
+  font-size: 20px;
+  font-family: myfirstfont;
 }
 .nav-bar .title {
   margin-right: 350px;
@@ -52,15 +67,14 @@ nav h1 {
 }
 .btn-1 {
   background-color: red;
-  font-family: sans-serif;
+  font-family: yousef;
   color: white;
   padding: 20px 25px;
   font-size: 14px;
-  border: 0;
-  clear: right;
+  border: 0px;
 }
-/*section-1*/
-.section-1 {
+/*header*/
+.header {
   background-image: url(./images/h1_hero.png.webp);
   background-position: center;
   background-size: cover;
@@ -68,7 +82,7 @@ nav h1 {
   background-attachment: fixed;
   position: relative;
 }
-.section-1 hr {
+.header hr {
   display: inline-block;
   width: 10%;
   border-color: rgb(184, 49, 0);
@@ -76,22 +90,24 @@ nav h1 {
   padding-bottom: 3px;
   background-color: orangered;
 }
-.section-1 h3 {
+.header h3 {
+  font-family: myfirstfont;
   color: orangered;
   position: absolute;
-  top: 33%;
+  top: 40%;
   left: 10%;
   width: 70%;
 }
-.section-1 h1 {
+.header h1 {
+  font-family: yous;
   color: white;
   position: absolute;
-  top: 43%;
+  top: 47%;
   left: 10%;
   width: 40%;
-  line-height: 70px;
+  line-height: 85px;
   text-align: justify;
-  font-size: 50px;
+  font-size: 60px;
 }
 .play {
   position: absolute;
@@ -110,16 +126,15 @@ nav h1 {
   font-size: 12px;
 }
 .btn-2 {
-  font-family: sans-serif;
+  font-family: yousef;
   position: absolute;
-  top: 68%;
+  top: 78%;
   left: 10%;
   background-color: red;
   color: white;
-  padding: 30px;
+  padding: 25px 25px;
   font-size: 16px;
-  border: 0;
-  width: 15%;
+  border: red;
 }
 button:hover {
   background-color: rgb(102, 0, 0);
@@ -128,22 +143,22 @@ button:hover {
   color: red;
   background-color: white;
 }
-/*section-2*/
-.section-2 {
+/*section-1*/
+.section-1 {
   width: 100%;
   height: 150vh;
   padding: 150px;
 }
-.section-2 .img {
+.section-1 .img {
   float: left;
   width: 600px;
   height: 800px;
 }
-.section-2 .img img {
+.section-1 .img img {
   width: 90%;
   height: 90%;
 }
-.section-2 .text {
+.section-1 .text {
   padding: 100px 0px 0px 650px;
 }
 .text hr {
@@ -153,31 +168,81 @@ button:hover {
   margin-right: 10px;
   padding-bottom: 3px;
   background-color: orangered;
-  border: 0px;
+  border: orangered;
 }
 .text h5 {
   color: orangered;
+  font-family: yous;
 }
 .text h1 {
   color: rgb(0, 0, 81);
-  margin: 5% 0%;
+  margin: 30px 0px;
   line-height: 50px;
 }
 .text p {
   line-height: 30px;
-  margin: 5% 0%;
+  margin: 30px 0px;
 }
 .text .btn-3 {
+  font-family: yousef;
   padding: 10px 40px;
   background-color: red;
   color: white;
-  border: 0px;
+  border-color: red;
   margin-top: 60px;
+  border: 0px;
 }
-/*section-3*/
-.section-3 {
+.btn-3 p {
+  margin: 5px 0px;
+}
+/*section-2*/
+.section-2 {
   height: 130vh;
   background-image: url(./images/section_bg01.png.webp);
   background-size: cover;
   background-attachment: fixed;
+  padding: 180px;
+}
+.section-2 h3 {
+  color: orangered;
+}
+.section-2 hr {
+  display: inline-block;
+  width: 5%;
+  border-color: rgb(184, 49, 0);
+  margin-right: 20px;
+  padding: 0.5px;
+  background-color: orangered;
+}
+.section-2 h1 {
+  color: white;
+  width: 55%;
+  font-size: 40px;
+  text-align: justify;
+  margin: 50px 0px;
+  line-height: 60px;
+  display: inline-block;
+}
+.section-2 .btn-4 {
+  font-family: yousef;
+  float: right;
+  padding: 20px 30px;
+  background-color: red;
+  color: white;
+  border-color: red;
+  margin-top: 140px;
+  border: 0px;
+}
+.boxes {
+  width: 100%;
+  height: 65%;
+}
+.boxes div {
+  width: 32%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+.box-2 {
+  margin: 0px 22px;
 }
