@@ -234,6 +234,7 @@ button:hover {
   border: 0px;
 }
 .boxes {
+  margin-top: 50px;
   width: 100%;
   height: 65%;
 }
@@ -242,6 +243,20 @@ button:hover {
   height: 100%;
   background-color: white;
   float: left;
+}
+.boxes h1 {
+  color: black;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  font-family: yousef;
+}
+.boxes p {
+  color: rgba(0, 0, 0, 0.723);
+  text-align: center;
+  margin: 0px 40px;
+  line-height: 2;
 }
 .box-2 {
   margin: 0px 22px;
