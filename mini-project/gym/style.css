@@ -21,7 +21,7 @@ body {
 }
 /*nav-bar*/
 nav {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.84);
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -73,6 +73,9 @@ nav a {
   font-size: 14px;
   border: 0px;
 }
+li:hover {
+  color: rgb(255, 25, 0);
+}
 /*header*/
 .header {
   background-image: url(./images/h1_hero.png.webp);
@@ -94,7 +97,7 @@ nav a {
   font-family: myfirstfont;
   color: orangered;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 10%;
   width: 70%;
 }
@@ -102,7 +105,7 @@ nav a {
   font-family: yous;
   color: white;
   position: absolute;
-  top: 47%;
+  top: 37%;
   left: 10%;
   width: 40%;
   line-height: 85px;
@@ -128,7 +131,7 @@ nav a {
 .btn-2 {
   font-family: yousef;
   position: absolute;
-  top: 78%;
+  top: 68%;
   left: 10%;
   background-color: red;
   color: white;
@@ -146,7 +149,7 @@ button:hover {
 /*section-1*/
 .section-1 {
   width: 100%;
-  height: 150vh;
+  height: 130vh;
   padding: 150px;
 }
 .section-1 .img {
@@ -170,14 +173,16 @@ button:hover {
   background-color: orangered;
   border: orangered;
 }
-.text h5 {
+.text h4 {
   color: orangered;
-  font-family: yous;
+  font-family: yousef;
 }
 .text h1 {
   color: rgb(0, 0, 81);
   margin: 30px 0px;
+  font-size: 40px;
   line-height: 50px;
+  font-family: yous;
 }
 .text p {
   line-height: 30px;
@@ -205,6 +210,7 @@ button:hover {
 }
 .section-2 h3 {
   color: orangered;
+  font-family: yousef;
 }
 .section-2 hr {
   display: inline-block;
@@ -217,11 +223,12 @@ button:hover {
 .section-2 h1 {
   color: white;
   width: 55%;
-  font-size: 40px;
+  font-size: 50px;
   text-align: justify;
   margin: 50px 0px;
   line-height: 60px;
   display: inline-block;
+  font-family: myfirstfont;
 }
 .section-2 .btn-4 {
   font-family: yousef;
@@ -243,14 +250,16 @@ button:hover {
   height: 100%;
   background-color: white;
   float: left;
+  position: relative;
 }
 .boxes h1 {
   color: black;
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   width: 100%;
   font-family: yousef;
+  margin: 80px 0px 10px 0px;
 }
 .boxes p {
   color: rgba(0, 0, 0, 0.723);
@@ -258,6 +267,48 @@ button:hover {
   margin: 0px 40px;
   line-height: 2;
 }
+.boxes span {
+  font-size: 60px;
+  transform: translate(250%, 100%);
+  text-align: center;
+}
+.boxes button {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  padding: 0px 0px;
+  background-color: red;
+  color: white;
+  border-color: red;
+  border: 0px;
+  height: 0px;
+  transition: 1s;
+}
+.boxes a {
+  font-family: myfirstfont;
+  font-size: 0px;
+  transition: 0.8s;
+}
+.boxes a i {
+  margin-left: 20px;
+}
 .box-2 {
   margin: 0px 22px;
+}
+.boxes div:hover span {
+  color: rgb(255, 17, 0);
+}
+.boxes h1:hover {
+  color: rgb(255, 30, 0);
+}
+.boxes div:hover button {
+  padding: 20px 0px;
+  height: 65px;
+}
+.boxes div:hover a {
+  font-size: 17px;
+}
+/*section-3*/
+.section-3 {
+  height: 130vh;
 }
