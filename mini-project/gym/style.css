@@ -362,4 +362,37 @@ button:hover {
     rgba(0, 0, 0, 0.247),
     rgb(0, 0, 0)
   );
+  padding-top: 40%;
+  display: none;
+}
+.content .shadow .buttom {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  transition: 0.2s;
+  margin: auto;
+}
+.shadow .buttom i {
+  transform: translate(22px, 20px);
+  font-size: 20px;
+}
+.shadow .buttom:hover {
+  color: red;
+  background-color: white;
+}
+.shadow h1 {
+  color: white;
+  text-align: center;
+  margin: 20px 0px 5px 0px;
+  font-family: myfirstfont;
+  font-size: 28px;
+}
+.shadow p {
+  color: white;
+  text-align: center;
+}
+.content :hover .shadow {
+  display: block;
 }
