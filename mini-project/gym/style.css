@@ -396,3 +396,55 @@ button:hover {
 .content :hover .shadow {
   display: block;
 }
+/*section-4*/
+.section-4 {
+  height: 150vh;
+}
+.section-4 .navy-blue-stripe {
+  width: 100%;
+  height: 45vh;
+  padding: 100px 200px;
+  background-color: rgb(0, 36, 75);
+}
+.navy-blue-stripe h1 {
+  color: white;
+  font-size: 60px;
+  width: 50%;
+  line-height: 1.5;
+  font-family: myfirstfont;
+  display: inline-block;
+}
+.navy-blue-stripe button {
+  font-family: yousef;
+  float: right;
+  padding: 20px 30px;
+  background-color: red;
+  color: white;
+  margin-top: 50px;
+  border-color: red;
+  border: 0px;
+}
+.section-4 .timetable {
+  padding: 200px 50px;
+}
+.timetable hr {
+  display: inline-block;
+  width: 4%;
+  margin-right: 8px;
+  background-color: rgb(255, 34, 0);
+  height: 4px;
+}
+.timetable h4 {
+  color: rgb(252, 17, 0);
+  font-family: yousef;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.timetable h1 {
+  text-align: center;
+  color: rgb(0, 19, 96);
+  font-family: myfirstfont;
+  font-size: 50px;
+  width: 40%;
+  margin: auto;
+}
