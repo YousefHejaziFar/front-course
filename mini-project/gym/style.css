@@ -19,9 +19,9 @@ body {
   font-family: yous;
   src: url(./font/7cHqv4kjgoGqM7E3t-4s51os.woff2);
 }
-/*nav-bar*/
+/*start nav-bar*/
 nav {
-  background-color: rgba(0, 0, 0, 0.84);
+  background-color: rgb(0, 0, 0);
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -29,11 +29,11 @@ nav {
 }
 nav img {
   float: left;
-  padding: 30px 5px 20px 40px;
+  padding: 25px 5px 20px 35px;
 }
 nav a {
   color: white;
-  padding: 25px 5px;
+  padding: 20px 5px;
   display: inline-block;
   font-size: 45px;
   font-family: myfirstfont;
@@ -48,7 +48,49 @@ nav a {
   margin-right: 50px;
   font-size: 20px;
   font-family: myfirstfont;
+  transition: 0.3s;
 }
+/*start dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 16px;
+  font-family: myfirstfont;
+}
+.dropdown-content {
+  position: absolute;
+  display: none;
+  max-width: 200px;
+  background-color: #00000088;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 180px;
+}
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 12px 0px 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: myfirstfont;
+  transition: 0.4s;
+}
+.dropdown-content a:hover {
+  color: rgb(255, 21, 0);
+  padding-left: 20px;
+}
+.dropbtn:hover {
+  color: rgb(255, 68, 0);
+}
+.li-dropdown:hover .dropdown-content {
+  display: block;
+}
+/*The end of the dropdown*/
 .nav-bar .title {
   margin-right: 350px;
   padding-bottom: 30px;
@@ -74,10 +116,11 @@ nav a {
   border: 0px;
 }
 li:hover {
-  color: rgb(255, 25, 0);
+  color: rgb(255, 68, 0);
 }
-/*header*/
-.header {
+/*The end of the nav-bar*/
+/*start header*/
+header {
   background-image: url(./images/h1_hero.png.webp);
   background-position: center;
   background-size: cover;
@@ -85,7 +128,7 @@ li:hover {
   background-attachment: fixed;
   position: relative;
 }
-.header hr {
+header hr {
   display: inline-block;
   width: 10%;
   border-color: rgb(184, 49, 0);
@@ -93,7 +136,7 @@ li:hover {
   padding-bottom: 3px;
   background-color: orangered;
 }
-.header h3 {
+header h3 {
   font-family: myfirstfont;
   color: orangered;
   position: absolute;
@@ -101,7 +144,7 @@ li:hover {
   left: 10%;
   width: 70%;
 }
-.header h1 {
+header h1 {
   font-family: yous;
   color: white;
   position: absolute;
@@ -139,29 +182,32 @@ li:hover {
   font-size: 16px;
   border: red;
 }
-button:hover {
+.btn-1:hover {
   background-color: rgb(102, 0, 0);
 }
 .play:hover {
   color: red;
   background-color: white;
 }
-/*section-1*/
-.section-1 {
+/*The end of the header*/
+/*section-1
+  Section Name 1: About our gym
+*/
+.abut-our-gym {
   width: 100%;
   height: 130vh;
   padding: 150px;
 }
-.section-1 .img {
+.abut-our-gym .img {
   float: left;
   width: 600px;
   height: 800px;
 }
-.section-1 .img img {
+.abut-our-gym .img img {
   width: 90%;
   height: 90%;
 }
-.section-1 .text {
+.abut-our-gym .text {
   padding: 100px 0px 0px 650px;
 }
 .text hr {
@@ -200,19 +246,21 @@ button:hover {
 .btn-3 p {
   margin: 5px 0px;
 }
-/*section-2*/
-.section-2 {
+/*section-2
+  Section Name 2:our services 
+*/
+.OUR-SERVICES {
   height: 130vh;
   background-image: url(./images/section_bg01.png.webp);
   background-size: cover;
   background-attachment: fixed;
   padding: 180px;
 }
-.section-2 h3 {
+.OUR-SERVICES h3 {
   color: orangered;
   font-family: yousef;
 }
-.section-2 hr {
+.OUR-SERVICES hr {
   display: inline-block;
   width: 5%;
   border-color: rgb(184, 49, 0);
@@ -220,7 +268,7 @@ button:hover {
   padding: 0.5px;
   background-color: orangered;
 }
-.section-2 h1 {
+.OUR-SERVICES h1 {
   color: white;
   width: 55%;
   font-size: 50px;
@@ -230,7 +278,7 @@ button:hover {
   display: inline-block;
   font-family: myfirstfont;
 }
-.section-2 .btn-4 {
+.OUR-SERVICES .btn-4 {
   font-family: yousef;
   float: right;
   padding: 20px 30px;
@@ -240,6 +288,7 @@ button:hover {
   margin-top: 140px;
   border: 0px;
 }
+/*start boxes*/
 .boxes {
   margin-top: 50px;
   width: 100%;
@@ -307,22 +356,25 @@ button:hover {
 .boxes div:hover a {
   font-size: 17px;
 }
-/*section-3*/
-.section-3 {
+/*The end of the section-2 and boxes*/
+/*section-3
+  Section Name 3:fitness gallery
+*/
+.fitness-gallery {
   height: 130vh;
   padding: 80px 0px;
 }
-.section-3 .content {
+.fitness-gallery .content {
   height: 110vh;
   position: relative;
 }
-.section-3 .box-1 {
+.fitness-gallery .content .box-1 {
   height: 100%;
   width: 50%;
   background-image: url(./images/gallery1.png.webp);
   position: absolute;
 }
-.section-3 .box-2 {
+.fitness-gallery .content .box-2 {
   width: 23%;
   height: 48%;
   background-image: url(./images/gallery2.png.webp);
@@ -330,7 +382,7 @@ button:hover {
   top: 0%;
   left: 50.5%;
 }
-.section-3 .box-3 {
+.fitness-gallery .content .box-3 {
   width: 23%;
   height: 48%;
   background-image: url(./images/gallery3.png.webp);
@@ -338,7 +390,7 @@ button:hover {
   top: 0%;
   right: 0%;
 }
-.section-3 .box-4 {
+.fitness-gallery .content .box-4 {
   width: 23%;
   height: 48%;
   background-image: url(./images/gallery4.png.webp);
@@ -346,7 +398,7 @@ button:hover {
   bottom: 0%;
   left: 52%;
 }
-.section-3 .box-5 {
+.fitness-gallery .content .box-5 {
   width: 23%;
   height: 48%;
   background-image: url(./images/gallery5.png.webp);
@@ -354,7 +406,7 @@ button:hover {
   bottom: 0%;
   right: 0%;
 }
-.content .shadow {
+.fitness-gallery .content .shadow {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(
@@ -396,11 +448,14 @@ button:hover {
 .content :hover .shadow {
   display: block;
 }
-/*section-4*/
-.section-4 {
+/*section-4
+  Section Name 4:TIME SCHEDULE
+*/
+.TIME-SCHEDULE {
   height: 170vh;
 }
-.section-4 .navy-blue-stripe {
+/*The beginning of the blue bar*/
+.TIME-SCHEDULE .navy-blue-stripe {
   width: 100%;
   height: 45vh;
   padding: 100px 200px;
@@ -424,7 +479,8 @@ button:hover {
   border-color: red;
   border: 0px;
 }
-.section-4 .timetable {
+/*The end of the blue bar*/
+.TIME-SCHEDULE .timetable {
   padding: 200px 50px 120px 50px;
 }
 .timetable hr {
@@ -526,36 +582,165 @@ button:hover {
 .kick-boxing div:hover p {
   color: white;
 }
-/*section-5*/
-.section-5 {
+/*section-5
+  Section Name 5:CONTACT FORM
+*/
+.CONTACT-FORM {
   height: 130vh;
 }
-.section-5 .img {
+.CONTACT-FORM .img {
   width: 45%;
   margin-right: 50px;
   height: 120vh;
   background-image: url(./images/contact_form.png.webp);
+  background-size: cover;
   float: left;
 }
-.section-5 .text {
-  padding-top: 60px;
+.CONTACT-FORM .text {
+  padding-top: 100px;
 }
-.section-5 .text hr {
+.CONTACT-FORM .text hr {
   display: inline-block;
   width: 4%;
   margin-right: 8px;
   background-color: rgb(255, 67, 39);
 }
-.section-5 .text h3 {
+.CONTACT-FORM .text h3 {
   color: rgb(252, 17, 0);
   font-family: yousef;
   margin-bottom: 50px;
 }
-.section-5 .text h1 {
+.CONTACT-FORM .text h1 {
   color: rgb(0, 14, 70);
   font-family: myfirstfont;
   font-size: 50px;
   width: 60%;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+}
+.CONTACT-FORM .text input {
+  border-color: rgba(255, 255, 255, 0);
+  outline: none;
+  color: rgba(0, 0, 0, 0.811);
+  font-size: 15px;
+  margin: 0px 50px 15px 20px;
+}
+.CONTACT-FORM .text .bottom-line-input {
+  display: block;
+  height: 0.1px;
+  background-color: rgba(0, 0, 0, 0.163);
+  padding: 0px;
+  width: 100%;
+}
+.text select {
+  border: 0px;
+  color: rgba(0, 0, 0, 0.447);
+  width: 80%;
+  outline: none;
+  font-size: 15px;
+  margin: 50px 0px 10px 20px;
+}
+.text textarea {
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  height: 100px;
+  font-size: 18px;
+  border-color: rgba(0, 0, 0, 0.315);
+  padding-left: 20px;
+}
+.input-1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+.input-2 {
+  display: inline-block;
+}
+.input-3 {
+  display: inline-block;
+  width: 17%;
+  margin-right: 20px;
+}
+.input-4 {
+  display: inline-block;
+}
+.input-5 {
+  display: block;
+  width: 35%;
+  float: right;
+  margin-right: 250px;
+  margin-top: 60px;
+}
+.btn-6 {
+  font-family: yousef;
+  padding: 15px 40px;
+  background-color: red;
+  color: white;
+  margin-top: 50px;
+  border: 0px;
+}
+.btn-6 p {
+  margin: 0px;
+}
+/*footer*/
+footer {
+  height: 83vh;
+  background-image: url(./images/section_bg03.png.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 150px 0px 180px;
+}
+footer table {
+  width: 100%;
+  color: white;
+  border-bottom: 1px;
+  border-color: white;
+  padding-bottom: 70px;
+}
+footer table th {
+  text-align: left;
+  padding: 0px 50px 40px 0px;
+  font-family: myfirstfont;
+  font-size: 20px;
+  width: 24.5%;
+}
+footer table td a {
+  color: white;
+  font-size: 60px;
+  font-family: myfirstfont;
+}
+footer table td {
+  color: rgba(255, 255, 255, 0.507);
+  padding-bottom: 20px;
+  transition: 0.5s;
+}
+footer table td i {
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 20px;
+  transition: 0.5s;
+}
+td:hover {
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.886);
+}
+td i:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+footer hr {
+  border-color: rgba(0, 0, 0, 0.495);
+}
+footer p {
+  color: rgba(255, 255, 255, 0.808);
+  text-align: center;
+  padding-top: 50px;
+}
+footer p a {
+  color: red;
+}
+footer p i {
+  color: red;
 }
