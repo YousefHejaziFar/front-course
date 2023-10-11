@@ -3,20 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,
-body {
-  font-family: sans-serif;
-}
 @font-face {
   font-family: myfirstfont;
   src: url(./font/LYjNdG7kmE0gfaN9pQ.woff2);
 }
 @font-face {
-  font-family: yousef;
+  font-family: mysecondfont;
   src: url(./font/7cHpv4kjgoGqM7E_DMs5.woff2);
 }
 @font-face {
-  font-family: yous;
+  font-family: mythirdfont;
   src: url(./font/7cHqv4kjgoGqM7E3t-4s51os.woff2);
 }
 /*start nav-bar*/
@@ -107,13 +103,14 @@ nav a {
   color: rgb(201, 0, 0);
   margin-right: 200px;
 }
-.btn-1 {
+.navbar-btn {
   background-color: red;
-  font-family: yousef;
+  font-family: mysecondfont;
   color: white;
   padding: 20px 25px;
   font-size: 14px;
   border: 0px;
+  transition: 0.3s;
 }
 li:hover {
   color: rgb(255, 68, 0);
@@ -145,7 +142,7 @@ header h3 {
   width: 70%;
 }
 header h1 {
-  font-family: yous;
+  font-family: mythirdfont;
   color: white;
   position: absolute;
   top: 37%;
@@ -155,7 +152,7 @@ header h1 {
   text-align: justify;
   font-size: 60px;
 }
-.play {
+.play-btn {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -165,14 +162,14 @@ header h1 {
   border: 3px solid red;
   right: 10%;
   top: 60%;
-  transition: 0.2s;
+  transition: 0.5s;
 }
-.play i {
+.play-btn i {
   transform: translate(33px, 28px);
   font-size: 12px;
 }
-.btn-2 {
-  font-family: yousef;
+.header-btn {
+  font-family: mysecondfont;
   position: absolute;
   top: 68%;
   left: 10%;
@@ -181,11 +178,13 @@ header h1 {
   padding: 25px 25px;
   font-size: 16px;
   border: red;
+  transition: 0.3s;
 }
-.btn-1:hover {
+.header-btn:hover,
+.navbar-btn:hover {
   background-color: rgb(102, 0, 0);
 }
-.play:hover {
+.play-btn:hover {
   color: red;
   background-color: white;
 }
@@ -221,30 +220,30 @@ header h1 {
 }
 .text h4 {
   color: orangered;
-  font-family: yousef;
+  font-family: mysecondfont;
 }
 .text h1 {
   color: rgb(0, 0, 81);
   margin: 30px 0px;
   font-size: 40px;
   line-height: 50px;
-  font-family: yous;
+  font-family: mythirdfont;
 }
 .text p {
   line-height: 30px;
   margin: 30px 0px;
 }
-.text .btn-3 {
-  font-family: yousef;
-  padding: 10px 40px;
+.text .about-our-gym-btn {
+  font-family: mysecondfont;
+  padding: 20px 40px;
   background-color: red;
   color: white;
-  border-color: red;
+  border: none;
   margin-top: 60px;
-  border: 0px;
+  transition: 0.3s;
 }
-.btn-3 p {
-  margin: 5px 0px;
+.about-our-gym-btn:hover {
+  background-color: rgb(102, 0, 0);
 }
 /*section-2
   Section Name 2:our services 
@@ -258,7 +257,7 @@ header h1 {
 }
 .OUR-SERVICES h3 {
   color: orangered;
-  font-family: yousef;
+  font-family: mysecondfont;
 }
 .OUR-SERVICES hr {
   display: inline-block;
@@ -278,8 +277,8 @@ header h1 {
   display: inline-block;
   font-family: myfirstfont;
 }
-.OUR-SERVICES .btn-4 {
-  font-family: yousef;
+.OUR-SERVICES .OUR-SERVICES-btn {
+  font-family: mysecondfont;
   float: right;
   padding: 20px 30px;
   background-color: red;
@@ -287,6 +286,10 @@ header h1 {
   border-color: red;
   margin-top: 140px;
   border: 0px;
+  transition: 0.3s;
+}
+.OUR-SERVICES-btn:hover {
+  background-color: rgb(102, 0, 0);
 }
 /*start boxes*/
 .boxes {
@@ -307,7 +310,7 @@ header h1 {
   font-size: 18px;
   text-align: center;
   width: 100%;
-  font-family: yousef;
+  font-family: mysecondfont;
   margin: 80px 0px 10px 0px;
 }
 .boxes p {
@@ -331,7 +334,7 @@ header h1 {
   border-color: red;
   border: 0px;
   height: 0px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .boxes a {
   font-family: myfirstfont;
@@ -417,7 +420,7 @@ header h1 {
   padding-top: 40%;
   display: none;
 }
-.content .shadow .buttom {
+.content .shadow .right-buttom {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -426,11 +429,11 @@ header h1 {
   transition: 0.2s;
   margin: auto;
 }
-.shadow .buttom i {
+.shadow .right-buttom i {
   transform: translate(22px, 20px);
   font-size: 20px;
 }
-.shadow .buttom:hover {
+.shadow .right-buttom:hover {
   color: red;
   background-color: white;
 }
@@ -444,6 +447,7 @@ header h1 {
 .shadow p {
   color: white;
   text-align: center;
+  font-family: mythirdfont;
 }
 .content :hover .shadow {
   display: block;
@@ -455,13 +459,13 @@ header h1 {
   height: 170vh;
 }
 /*The beginning of the blue bar*/
-.TIME-SCHEDULE .navy-blue-stripe {
+.TIME-SCHEDULE .membership-offer {
   width: 100%;
   height: 45vh;
   padding: 100px 200px;
   background-color: rgb(0, 36, 75);
 }
-.navy-blue-stripe h1 {
+.membership-offer h1 {
   color: white;
   font-size: 60px;
   width: 50%;
@@ -469,8 +473,8 @@ header h1 {
   font-family: myfirstfont;
   display: inline-block;
 }
-.navy-blue-stripe button {
-  font-family: yousef;
+.membership-offer button {
+  font-family: mysecondfont;
   float: right;
   padding: 20px 30px;
   background-color: red;
@@ -478,6 +482,10 @@ header h1 {
   margin-top: 50px;
   border-color: red;
   border: 0px;
+  transition: 0.3s;
+}
+.membership-offer button:hover {
+  background-color: rgb(102, 0, 0);
 }
 /*The end of the blue bar*/
 .TIME-SCHEDULE .timetable {
@@ -492,7 +500,7 @@ header h1 {
 }
 .timetable h4 {
   color: rgb(252, 17, 0);
-  font-family: yousef;
+  font-family: mysecondfont;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -607,7 +615,7 @@ header h1 {
 }
 .CONTACT-FORM .text h3 {
   color: rgb(252, 17, 0);
-  font-family: yousef;
+  font-family: mysecondfont;
   margin-bottom: 50px;
 }
 .CONTACT-FORM .text h1 {
@@ -673,16 +681,17 @@ header h1 {
   margin-right: 250px;
   margin-top: 60px;
 }
-.btn-6 {
-  font-family: yousef;
-  padding: 15px 40px;
+.form-btn button {
+  font-family: mysecondfont;
+  padding: 20px 40px;
   background-color: red;
   color: white;
   margin-top: 50px;
   border: 0px;
+  transition: 0.3s;
 }
-.btn-6 p {
-  margin: 0px;
+.form-btn button:hover {
+  background-color: rgb(102, 0, 0);
 }
 /*footer*/
 footer {
@@ -715,6 +724,7 @@ footer table td {
   color: rgba(255, 255, 255, 0.507);
   padding-bottom: 20px;
   transition: 0.5s;
+  font-family: mysecondfont;
 }
 footer table td i {
   margin-right: 20px;
@@ -723,7 +733,7 @@ footer table td i {
   transition: 0.5s;
 }
 td:hover {
-  padding-left: 10px;
+  padding-left: 5px;
   color: rgba(255, 255, 255, 0.886);
 }
 td i:hover {
@@ -734,7 +744,7 @@ footer hr {
   border-color: rgba(0, 0, 0, 0.495);
 }
 footer p {
-  color: rgba(255, 255, 255, 0.808);
+  color: rgba(255, 255, 255, 0.468);
   text-align: center;
   padding-top: 50px;
 }
