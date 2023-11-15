@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-color {
+  background-image: linear-gradient(rgb(38, 51, 65), rgb(143, 143, 143));
+  height: 100vh;
+  padding-top: 200px;
+  font-family: sans-serif;
+}
+.content {
+  position: relative;
+  width: 40%;
+  margin: auto;
+  height: 100%;
+}
+.text {
+  width: 100%;
+  background-color: rgb(119, 135, 145);
+  padding: 20px 15px 20px 100px;
+  margin: auto;
+  display: block;
+  height: 70%;
+}
+.text h1 {
+  color: white;
+  margin: 20px 0px;
+  display: block;
+}
+.text p {
+  text-align: justify;
+  display: block;
+  line-height: 2;
+}
+img {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0;
+  right: 0;
+  height: 70%;
+  transition: 1s ease;
+}
+.text:hover img {
+  left: -20%;
+  top: 15%;
+  height: 20%;
+  width: 30%;
+}

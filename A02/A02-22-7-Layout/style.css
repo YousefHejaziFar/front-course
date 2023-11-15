@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  padding: 20px 0px;
+}
+.header {
+  height: 30vh;
+  background-color: rgb(210, 210, 210);
+}
+.header h1 {
+  font-size: 60px;
+  text-align: center;
+  padding: 70px 0px;
+}
+.column {
+  height: 40vh;
+}
+.column .box-1 {
+  float: left;
+  width: 30%;
+  background-color: rgb(98, 98, 98);
+  height: 100%;
+}
+.column .box-2 {
+  width: 40%;
+  background-color: rgb(141, 141, 141);
+  height: 100%;
+  float: left;
+}
+.column .box-3 {
+  width: 30%;
+  background-color: rgb(179, 179, 179);
+  height: 100%;
+  float: left;
+}
+.footer {
+  height: 10vh;
+  background-color: rgb(210, 210, 210);
+}
+.footer p {
+  text-align: center;
+  padding: 30px 0px;
+}

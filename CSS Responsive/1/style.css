@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+p {
+  text-align: justify;
+}
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 70%;
+  max-width: 70%;
+}
+.column2 {
+  display: flex;
+  flex: 30%;
+  max-width: 30%;
+}
+.item1,
+.item5 {
+  background-color: gray;
+  align-items: center;
+  width: 60%;
+  padding: 0px 30px;
+}
+.item2 {
+  background-image: url(./image/saturn.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+}
+.item3 {
+  background-image: url(./image/sky.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.item4 {
+  background-image: url(./image/moon.jpg);
+  background-size: cover;
+  width: 40%;
+}

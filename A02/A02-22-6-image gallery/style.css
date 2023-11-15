@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  color: #008000;
+  font-size: 50px;
+}
+p {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+img {
+  width: 350px;
+  height: 250px;
+  float: left;
+  margin: 0px 75px;
+}

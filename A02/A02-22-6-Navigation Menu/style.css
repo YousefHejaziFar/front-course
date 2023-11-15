@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: sans-serif;
+  height: 100vh;
+}
+.nav-bar {
+  height: 10vh;
+  background-color: rgb(196, 196, 196);
+  padding: 30px;
+}
+.nav-bar li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.contact {
+  height: 90vh;
+  background-color: rgb(44, 46, 80);
+}
+.contact h1 {
+  color: white;
+  padding: 25px;
+}
+.contact p {
+  color: white;
+  padding: 10px 25px;
+}
